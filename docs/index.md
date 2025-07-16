@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "web-review"
+  name: "customerBK"
   text: "前端知识复习小站"
   tagline: 六一爸爸的前端复习小站
   image:

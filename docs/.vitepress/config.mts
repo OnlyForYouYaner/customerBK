@@ -5,12 +5,12 @@ import { generateSidebarConfig } from "../../scripts/generateSidebar.js";
 const sidebar = generateSidebarConfig();
 
 export default defineConfig({
-  base: "/web-review/", // 替换为你的仓库名
+  base: "/customerBK/", // 替换为你的仓库名
   title: "六一爸爸前端小站",
   description: "前端知识复习小站",
   head: [
     // 基本 favicon 配置
-    ["link", { rel: "icon", href: "/web-review/vitepress-logo-mini.svg" }],
+    ["link", { rel: "icon", href: "/customerBK/vitepress-logo-mini.svg" }],
   ],
   themeConfig: {
     logo: { src: "/vitepress-logo-mini.svg", width: 24, height: 24 },
@@ -24,7 +24,7 @@ export default defineConfig({
     ],
     sidebar: sidebar, // 将动态生成的侧边栏赋值给这里
     socialLinks: [
-      { icon: "github", link: "https://github.com/a244885878/web-review" },
+      { icon: "github", link: "https://github.com/a244885878/customerBK" },
     ],
     footer: {
       message: "基于 MIT 许可发布",
