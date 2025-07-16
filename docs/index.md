@@ -11,7 +11,7 @@ hero:
     alt: My Logo
   actions:
     - theme: brand
-      text: 开始吧
+      text: 开始
       link: /markdown-examples
     # - theme: alt
     #   text: API Examples
