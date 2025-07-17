@@ -24,7 +24,7 @@ export default defineConfig({
     ],
     sidebar: sidebar, // 将动态生成的侧边栏赋值给这里
     socialLinks: [
-      { icon: "github", link: "https://onlyforyouyaner.github.io/customerBK/K" },
+      { icon: "github", link: "https://onlyforyouyaner.github.io/customerBK/" },
     ],
     footer: {
       message: "基于 MIT 许可发布",
